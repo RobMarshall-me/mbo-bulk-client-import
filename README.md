@@ -22,8 +22,8 @@ Before running the script, you will need to have the following installed:
    Clone the repository or set up a new project directory:
 
    ```bash
-   git clone <repository-url>
-   cd <project-directory>
+   git clone https://github.com/RobMarshall-me/mbo-bulk-client-import.git
+   cd mbo-bulk-client-import
    ```
 
 2. **Install Poetry**
@@ -68,7 +68,7 @@ Before running the script, you will need to have the following installed:
    You can run the script with Poetry:
 
    ```bash
-   poetry run python <your_script_name>.py
+   poetry run python app/main.py
    ```
 
    The script will:
